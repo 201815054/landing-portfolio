@@ -21,7 +21,7 @@ What you get:
 - Lead/contact form, analytics & pixel setup
 - On-brand copy polish (I can write the copy if you don't have it)
 
-▶ Live samples (clinic / academy / B2B SaaS): **[portfolio URL]**
+▶ Live samples (clinic / academy / B2B SaaS): **https://201815054.github.io/landing-portfolio/samples/**
 
 ## Packages
 | | BASIC | STANDARD (popular) | PREMIUM |
