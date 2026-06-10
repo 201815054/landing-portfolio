@@ -5,13 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>전환형 랜딩페이지 제작 · 포트폴리오</title>
 <link rel="stylesheet" href="../assets/kit.css" />
-<style> :root { --brand: #4f46e5; --brand-2: #7c69f5; } .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-@media(max-width:860px){.gallery{grid-template-columns:1fr}}
-.shot{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#fff;transition:transform .2s,border-color .2s}
-.shot:hover{transform:translateY(-4px);border-color:var(--brand)}
-.shot .thumb{height:150px;background:linear-gradient(135deg,var(--c1),var(--c2));display:grid;place-items:center;color:#fff;font-weight:800;font-size:20px}
-.shot .meta{padding:16px 18px}.shot .meta p{font-size:14px;margin:4px 0 12px}
-</style>
+<style> :root { --brand: #4f46e5; --brand-2: #7c69f5; --tint: #eef0ff; } </style>
 </head>
 <body>
   <nav class="nav"><div class="wrap">
@@ -32,16 +26,16 @@
   <section class="section" id="work">
     <div class="section-head center"><span class="eyebrow">Portfolio</span><h2>업종별 제작 샘플</h2></div>
     <div class="wrap gallery">
-      <a class="shot" href="clinic.html" style="--c1:#0ea5a4;--c2:#2dd4bf">
-        <div class="thumb">CLINIC</div>
+      <a class="shot" href="clinic.html">
+        <div class="preview"><iframe src="clinic.html" scrolling="no" tabindex="-1" title="피부과 샘플"></iframe><span class="veil"></span></div>
         <div class="meta"><h3>피부과·의원</h3><p class="muted">예약 상담 유도 · 신뢰형 구성</p><span class="btn btn-ghost" style="padding:8px 14px;font-size:13px">샘플 열기 →</span></div>
       </a>
-      <a class="shot" href="academy.html" style="--c1:#ea580c;--c2:#fb923c">
-        <div class="thumb">ACADEMY</div>
+      <a class="shot" href="academy.html">
+        <div class="preview"><iframe src="academy.html" scrolling="no" tabindex="-1" title="학원 샘플"></iframe><span class="veil"></span></div>
         <div class="meta"><h3>학원·교육</h3><p class="muted">상담신청 유도 · 실적/후기 강조</p><span class="btn btn-ghost" style="padding:8px 14px;font-size:13px">샘플 열기 →</span></div>
       </a>
-      <a class="shot" href="saas.html" style="--c1:#4f46e5;--c2:#8b5cf6">
-        <div class="thumb">SAAS (EN)</div>
+      <a class="shot" href="saas.html">
+        <div class="preview"><iframe src="saas.html" scrolling="no" tabindex="-1" title="B2B SaaS 샘플"></iframe><span class="veil"></span></div>
         <div class="meta"><h3>B2B·스타트업</h3><p class="muted">무료체험 전환 · 영문 카피</p><span class="btn btn-ghost" style="padding:8px 14px;font-size:13px">샘플 열기 →</span></div>
       </a>
     </div>

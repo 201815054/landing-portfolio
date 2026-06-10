@@ -1,0 +1,23 @@
+{
+  "name": "landing-gig",
+  "version": "1.0.0",
+  "description": "크몽/Fiverr \"전환형 랜딩페이지 제작\" gig을 위한 포트폴리오 샘플 + 재사용 디자인킷 + gig 상세페이지 카피.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/201815054/landing-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/201815054/landing-portfolio/issues"
+  },
+  "homepage": "https://github.com/201815054/landing-portfolio#readme",
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}
