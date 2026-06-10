@@ -21,7 +21,7 @@ What you get:
 - Lead/contact form, analytics & pixel setup
 - On-brand copy polish (I can write the copy if you don't have it)
 
-▶ Live samples (SaaS / dental / coach): **https://201815054.github.io/landing-portfolio/samples/en.htmlen.html**
+▶ Live samples (SaaS / dental / coach): **https://201815054.github.io/landing-portfolio/samples/en.html**
 
 ## Packages
 | | BASIC | STANDARD (popular) | PREMIUM |
