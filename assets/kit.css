@@ -202,14 +202,7 @@ img, iframe { max-width: 100%; display: block; border: 0; }
   overflow: hidden; background: #fff; transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .shot:hover { transform: translateY(-4px); box-shadow: 0 24px 50px -28px rgba(30,25,70,0.4); }
-.preview { position: relative; height: 230px; overflow: hidden; background: var(--soft); border-bottom: 1px solid var(--line); }
-.preview iframe {
-  position: absolute; top: 0; left: 0;
-  width: 333.33%;            /* 3.33× container; scaled back to 1× → fits any column width */
-  height: 2400px;
-  transform: scale(0.30); transform-origin: top left;
-  pointer-events: none;
-}
-.preview .veil { position: absolute; inset: 0; z-index: 1; }   /* blocks iframe interaction */
+.preview { height: 210px; overflow: hidden; background: var(--soft); border-bottom: 1px solid var(--line); }
+.preview img { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
 .shot .meta { padding: 16px 18px; }
 .shot .meta p { font-size: 14px; margin: 4px 0 12px; }
