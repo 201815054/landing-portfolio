@@ -9,7 +9,7 @@ const viewports = [
 ];
 mkdirSync("shots", { recursive: true });
 
-const browser = await chromium.launch();
+const browser = await chromium.launch({ args: ["--no-sandbox", "--disable-gpu", "--disable-dev-shm-usage"] });
 for (const vp of viewports) {
   const ctx = await browser.newContext({ viewport: { width: vp.width, height: vp.height }, deviceScaleFactor: 1 });
   const page = await ctx.newPage();
