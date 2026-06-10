@@ -80,6 +80,10 @@ img, iframe { max-width: 100%; display: block; border: 0; }
 .nav-links a { color: var(--body); font-size: 15px; font-weight: 600; }
 .nav-links a:hover { color: var(--brand); }
 .nav-links .btn { padding: 10px 18px; font-size: 14px; }
+/* nav CTA buttons keep their own text color (specificity fix vs .nav-links a) */
+.nav-links a.btn-primary { color: var(--brand-ink); }
+.nav-links a.btn-primary:hover { color: var(--brand-ink); }
+.nav-links a.btn-ghost { color: var(--ink); }
 @media (max-width: 760px) { .nav-links a:not(.btn) { display: none; } }
 
 /* Sections */
